@@ -2,8 +2,9 @@
 	/* CSS Code */
 	/* Heading */
 	h1{
-		color: palevioletred;
+		color: #d87093;
 		font-size: 45px;
+		font-family: Arial, Helvetica, sans-serif;
   }
   footer{
     color:darkmagenta;
@@ -74,7 +75,12 @@
   	#ins {
 		font-family: Verdana,
 			Geneva, Tahoma, sans-serif;
-			
+			border: 6px;
+			border-style: solid;
+			width: 300px;
+            height: 175px;
+			margin: auto;
+			border-color: purple;
 		color: magenta;
 		font-size: 17px;
 	} 
