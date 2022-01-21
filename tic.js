@@ -325,6 +325,11 @@ else if((b1=="0"&& b5=="X"&& b9 =="X" && b2 =="" && b4 == "" && b6 == "" && b7 =
     document.getElementById("b3").value = c; 
     document.getElementById("b3").disabled = true;  
  }
+ else  if((b7=="X"&&b3=="X"&& b5=="0"&&b1==""&&b2==""&&b4==""&&b6==""&&b8==""&&b9=="")||(b1=="X"&&b9=="X"&& b5=="0"&&b3==""&&b2==""&&b4==""&&b6==""&&b8==""&&b7=="")){
+    document.getElementById("b2").value = c; 
+    document.getElementById("b2").disabled = true;
+ }
+
 
 // Checking for first row
 else if((b1=="X"&&b2=="X"&& document.getElementById("b3").disabled == false)||(b1=="0"&&b2=="0"&& document.getElementById("b3").disabled == false)){
